@@ -9,13 +9,10 @@
  *
  *****************************************************************************/
 /**
- * @file <Add File Name> 
- * @brief <Add Brief Description Here >
- *
- * <Add Extended Description Here>
- *
- * @author <Add FirsName LastName>
- * @date <Add date >
+ * @file <stats.c> 
+ * @brief <.c file to implement 8 functions >
+ * @author <Ahmed Galal>
+ * @date <6/1/2020 >
  *
  */
 
@@ -23,6 +20,7 @@
 
 #include <stdio.h>
 #include "stats.h"
+
 
 /* Size of the Data Set */
 #define SIZE (40)
@@ -41,3 +39,34 @@ void main() {
 }
 
 /* Add other Implementation File Code Here */
+
+void print_statistics( unsigned char *arr , unsigned int size ) {
+
+}
+
+
+void print_array( unsigned char *arr  , unsigned int size ){
+
+}
+
+
+void sort_array( unsigned char *arr  , unsigned int size ){
+
+}
+
+unsigned char find_median( unsigned char *arr  , unsigned int size ){
+
+}
+
+unsigned char find_mean( unsigned char *arr  , unsigned int size ){
+
+}
+
+unsigned char find_minimum( unsigned char *arr  , unsigned int size ){
+
+}
+
+unsigned char find_maximum ( unsigned char *arr  , unsigned int size ){
+
+}
+
